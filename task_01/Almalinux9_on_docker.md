@@ -7,13 +7,13 @@ Docker is an open-source platform that enables developers to build, package, and
 ## Install Docker
 First navigate to the **docker.com** website. On the homepage click on the **Download Docker** button and select **Download for Windows-AMD64**.
 
-![](https://github.com/DanieleDemeneghi/Scientific_Computing_for_Physics_Students/task_01/master/scps_1.png)
+![](scps_1.png)
 
 Once downloaded open the executable file and click on the **Install** button. After this step close the configurator and restart your PC. Open the Docker Desktop application and accept the license agreement.
 ## Install Almalinux9 on Docker
 Open the Docker Desktop application and select the Terminal
 
-![](https://github.com/DanieleDemeneghi/Scientific_Computing_for_Physics_Students/task_01/master/scps_2.png)
+![](scps_2.png)
 
 1. In the terminal insert the following command to get the image of almalinux9
 
