@@ -1,4 +1,4 @@
-\## Short description of the folder content
+## Short description of the folder content
 
 vecsum and matmul refer to the files with the daxpy vector addition and matrix multiplication respectively.
 
