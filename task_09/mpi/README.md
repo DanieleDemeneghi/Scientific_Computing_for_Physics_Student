@@ -1,0 +1,44 @@
+To change vector dimensions modify N inside
+
+```c
+
+int main() {
+
+&#x20;   int N = 10000000;
+
+&#x20;   create\_file(N)
+
+}
+
+```
+
+in the create\_x\_y\_\*.c files and adjust the file\_\*\_vector names in the .conf files.
+```
+
+file\_x\_vector = ./outputdir/vector\_N\_<insert\_new\_N\_here>\_x.dat
+
+file\_y\_vector = ./outputdir/vector\_N\_<insert\_new\_N\_here>\_y.dat
+
+```
+Change also N inside daxpy_mpi.c in
+```c
+
+int main(int argc, char **argv) {
+
+    int N = 1000000;
+
+    ...
+}
+
+```
+
+Then compile and run the Makefile with
+
+```
+
+make run
+
+```
+
+
+
