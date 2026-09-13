@@ -50,7 +50,7 @@ Yes the mean and median absolute error are on the order of $10^-{16}$ consistent
 
 
 
-C\[0, 0] == $999246.03086579171940684 + 0.00000000000000000i$
+C\[0, 0] = $999246.03086579171940684 + 0.00000000000000000i$
 
 
 
