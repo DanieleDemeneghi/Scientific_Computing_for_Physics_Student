@@ -17,7 +17,7 @@ int main() {
     create_file(N)
 }
 ```
-in the create_x_y_*.c files and adjust the file_*_vector names in the .conf files
+in the create_x_y.c files and adjust the file_vector names in the daxpy.conf files
 ```
 file_x_vector = ./outputdir/vector_N_<insert_new_N_here>_x.dat
 file_y_vector = ./outputdir/vector_N_<insert_new_N_here>_y.dat
