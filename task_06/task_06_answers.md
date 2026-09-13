@@ -3,30 +3,36 @@
 ## 2\) Reconstruct matrix A by inverse\_c2c Fourier transform, what is the mean and median absolute and relative error?
 
 $$
-Mean absolute error: 0.00000000000000048422
+Mean absolute error: 4.8422×10^{-16}
 
 
-Median absolute error: 0.00000000000000033307
+Median absolute error: 3.3307×10^{-16}
 
 
-Mean relative error: 0.00000000000013864391
+Mean relative error: 1.3864391×10^{-14}
 
 
-Median relative error: 0.00000000000000032468
+Median relative error: 3.2468^{-16}
 $$
 
 ## 4\) Reconstruct matrix A by inverse\_c2r Fourier transform, what is the mean and median absolute and relative error?
 
 $$
-Mean absolute error: 0.00000000000000060115
-Median absolute error: 0.00000000000000044409
-Mean relative error: 0.00000000000015331304
-Median relative error: 0.00000000000000038976
+Mean absolute error: 6.0115×10^{-16}
+
+
+Median absolute error: 4.4409×10^{-16}
+
+
+Mean relative error: 1.5331304×10^{-13}
+
+
+Median relative error: 3.8976×10^{-16}
 $$
 
 ## Are you reaching machine precision in point 2 and 4? If not, try to comment on why
 
-Yes the mean and median absolute error are on the order of $10^-16$ consistent with double precision
+Yes the mean and median absolute error are on the order of $10^-{16}$ consistent with double precision
 
 
 
