@@ -4,20 +4,21 @@ To change vector dimensions modify N inside
 
 int main() {
 
-&#x20;   int N = 10000000;
+	int N = 10000000;
 
-&#x20;   create\_file(N)
+	create\_file(N)
 
 }
 
 ```
 
-in the create\_x\_y\_\*.c files and adjust the file\_\*\_vector names in the .conf files.
+in the ```create_x_y_.c``` files and adjust the ```file_vector_names``` in the ```.conf``` files
+
 ```
 
-file\_x\_vector = ./outputdir/vector\_N\_<insert\_new\_N\_here>\_x.dat
+file_x_vector = ./outputdir/vector_N_<insert_new_N_here>_x.dat
 
-file\_y\_vector = ./outputdir/vector\_N\_<insert\_new\_N\_here>\_y.dat
+file_y_vector = ./outputdir/vector_N_<insert_new_N_here>_y.dat
 
 ```
 Change also N inside daxpy_mpi.c in
